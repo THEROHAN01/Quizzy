@@ -1,0 +1,88 @@
+.footer {
+    background-color: #F5EFFF;
+    border-top: 1px solid #e5e5e5;
+    padding: 3rem 1rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--theme);
+  }
+  
+  .footer-description {
+    color: #666;
+  }
+  
+  .footer-heading {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: var(--theme);
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-list a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-social-button {
+    background-color: #e5e5e5;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-content {
+      grid-template-columns: 2fr 1fr 1fr;
+    }
+  }
+  
+
+  #icons i{
+    padding: 5px;
+    font-size: 50px;
+    margin: 10px;
+    
+}
